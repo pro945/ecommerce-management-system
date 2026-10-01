@@ -21,11 +21,3 @@ A Java/JSP web application for product browsing, authentication, cart management
 - MySQL database integration
 - CRUD-ready architecture
 
-## Database setup
-1. Install MySQL.
-2. Run `database/ecommerce.sql`.
-3. Update credentials in `src/main/java/com/priyansh/ecommerce/util/DBConnection.java`.
-4. Deploy on Apache Tomcat 9.
-
-## Important
-Use environment variables or a local configuration file for production credentials. Do not commit passwords or API keys.
